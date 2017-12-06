@@ -4,28 +4,19 @@ WEBSITE: INDEX.TXT
 
 All files in bean package are bean objects of things retrieved or put into the database, including books, reviews, and purchase order items.
 
-
-
 The main servlet, Start.java, is found in controller package.  
-
 It serves as the main hub of functionality for our e-commerce site.  
-
 You can also find Validate.java, which is used to validate user login and registration.
 
 
 
 The dao package mainly consists of retrieving various items from the database, which is used in relation to the main model.
-
 MPModel.java serves as the main hub of data access through the bookstore, usually used for retrieving books and reviews. 
-
 Cart.java is the model for the cart, thus separating data access for the cart from the bookstore.  
-
 DBC.java serves as the model for the payment page, retrieving and putting in addresses and purchase orders upon completion.
 
 
-
 The service package has a single class which is used for the SOAP web service to get the product info by the partner.
-
 
 
 The test package has two classes which test the functionality of the DAO classes for books and reviews.
